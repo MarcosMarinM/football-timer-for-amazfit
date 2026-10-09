@@ -1,0 +1,64 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 1130513,
+    "appName": "Football Timer",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.0"
+    },
+    "icon": "icon.png",
+    "vender": "marcosmarinm",
+    "description": "Cronometro de futbol reanudable con minuto de inicio ajustable"
+  },
+  "permissions": ["data:os.device.info", "device:os.local_storage"],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "2.0",
+      "target": "2.0",
+      "minVersion": "2.0"
+    }
+  },
+  "targets": {
+    "bip-5": {
+      "module": {
+        "page": {
+          "pages": ["page/home/index"]
+        }
+      },
+      "platforms": [
+        {
+          "name": "Bip 5",
+          "deviceSource": 8454400
+        },
+        {
+          "name": "Bip 5",
+          "deviceSource": 8454401
+        },
+        {
+          "name": "Bip 5 Unity",
+          "deviceSource": 8782081
+        },
+        {
+          "name": "Bip 5 Unity",
+          "deviceSource": 8782088
+        },
+        {
+          "name": "Bip 5 Unity",
+          "deviceSource": 8782089
+        }
+      ],
+      "designWidth": 320
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Football Timer"
+    },
+    "es-ES": {
+      "appName": "Football Timer"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
